@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-section {
+  @apply mx-auto  sm:px-0 md:px-12 lg:px-24;
+}
+
+.bg-primary {
+  @apply bg-gradient-to-b from-[#200e2a] to-[#270d2c];
+}
+
+.title_selection {
+  @apply relative text-orange-300 font-bold uppercase tracking-wide text-xl md:text-2xl px-6 text-center;
+}
+
+.title_selection::before,
+.title_selection::after {
+  content: "";
+  @apply absolute top-1/2 transform -translate-y-1/2 h-3 w-1/6 md:w-1/4 max-w-[120px];
+  border-top: 2px solid #fbbf24; /* Màu cam */
+  border-bottom: 2px solid #fbbf24; /* Màu cam */
+}
+
+.title_selection::before {
+  @apply left-4 md:left-1/3 sm:left-1/5;
+}
+
+.title_selection::after {
+  @apply right-4 md:right-1/3 sm:right-1/5;
+}
+
+.z0{
+  z-index: 0 !important;
+}
+
+.z99{
+  z-index: 9999 !important;
+}
