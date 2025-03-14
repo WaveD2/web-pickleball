@@ -9,7 +9,7 @@ const Home = () => {
     <Layout>
       <Hero />
       {/* Info */}
-      <div className='container mx-auto px-4 py-12'>
+      <div className='container-section mx-auto px-4 py-12'>
         <div className='flex flex-col lg:flex-row items-center gap-8'>
           {/* Hình ảnh */}
           <div className='w-full lg:w-1/2'>

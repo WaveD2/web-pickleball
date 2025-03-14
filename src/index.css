@@ -2,10 +2,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .container-section {
-  @apply mx-auto  sm:px-0 md:px-12 lg:px-24;
+  @apply mx-auto sm:px-0 md:px-12 lg:px-24;
 }
 
 .bg-primary {

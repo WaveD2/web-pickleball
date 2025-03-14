@@ -36,7 +36,7 @@ const Layout = ({ children }: LayoutProps) => {
   }, [lastScrollY]);
 
   return (
-    <div className="relative">
+    <div className="relative max-w-screen">
       <Navbar visible={showHeader} isTransparent={isAtTop} />
       <main className="min-h-screen">
         {children}
