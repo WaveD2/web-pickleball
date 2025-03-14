@@ -25,11 +25,11 @@ body {
 }
 
 .title_selection::before {
-  @apply left-4 md:left-1/3 sm:left-1/5;
+  @apply left-4 md:left-2/3 sm:left-1/5;
 }
 
 .title_selection::after {
-  @apply right-4 md:right-1/3 sm:right-1/5;
+  @apply right-4 md:right-2/3 sm:right-1/5;
 }
 
 .z0{

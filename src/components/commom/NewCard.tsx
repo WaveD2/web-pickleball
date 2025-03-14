@@ -17,10 +17,10 @@ const NewsCard = ({
   link: string;
 }) => {
   return (
-    <div className='bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer'>
+    <div className=' overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer'>
       <h3 className='text-md font-bold uppercase mb-3'>{category}</h3>
-      <LazyImage src={image} alt={title} className='w-full h-52 object-cover' />
-      <div className='p-3 text-left h-40'>
+      <LazyImage src={image} alt={title} className='w-full h-52 object-cover rounded-lg' />
+      <div  className='bg-white rounded-lg shadow-md p-3 text-left h-40'>
         <h2 className='text-lg font-semibold mt-2'>{title}</h2>
         <p className='text-gray-500 text-sm mt-1 flex items-center gap-2'>
           <MdDateRange size={20} /> {date}
