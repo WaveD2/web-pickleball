@@ -40,8 +40,8 @@ const Footer = () => {
 
       {/* Thông tin công ty */}
       <div className="border-t border-gray-600 py-6 px-4 text-center">
-        <p>Đăng Minh - Uy tín tạo nên thương hiệu</p>
-        <p className="mt-2">© 2025 Đăng Minh. Design by <span className="font-bold">WaveD</span></p>
+        <p>HLV Koza Pickleball - Uy tín tạo nên thương hiệu</p>
+        <p className="mt-2">© 2025 HLV Koza Pickleball. Design by <span className="font-bold">WaveD</span></p>
       </div>
     </footer>
   );

@@ -60,7 +60,7 @@ const Home = () => {
               chiến thuật, thể lực, tâm lý và dinh dưỡng Pickleball.
             </p>
             <p className='font-semibold text-xl md:text-2xl mt-6 text-right'>
-              Vũ Ngọc Thành
+              HLV Koza Pickleball
             </p>
           </div>
 
@@ -68,7 +68,7 @@ const Home = () => {
           <div className='w-full h-full md:w-80 md:pt-14'>
             <LazyImage
               src='https://res.cloudinary.com/dr1uftsqc/image/upload/c_thumb,w_200,g_face/v1741872478/dang_minh/avatar_l0ocuf.jpg'
-              alt='Đăng Minh'
+              alt='HLV Koza'
               className='w-full h-full md:w-80 object-contain rounded-sm'
             />
           </div>
